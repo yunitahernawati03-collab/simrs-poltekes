@@ -1,0 +1,207 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 12px;
+}
+
+.header-menu .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-menu .menu {
+    font-size: 16px;
+    display: flex;
+    gap: 14px;
+}
+
+.header-menu .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu .menu .active {
+    color: black;
+}
+
+.header-menu .button-auth button {
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    padding: 12px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.menu .card-menu {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 12px;
+}
+
+
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section-pengguna {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+/* Judul */
+.section-pengguna h2 {
+    margin: 0; /* WAJIB */
+    padding: 12px;
+    background: #3b79a6;
+    color: white;
+    text-align: center;
+}
+
+
+.section-pengguna table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+
+
+
+.section-pengguna th {
+    border-top: none;
+}
+
+
+th {
+    background-color: #1abc9c;
+    color: white;
+    padding: 12px;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+ body {
+    background: #e6eef2;
+    font-family: Arial, sans-serif;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 30px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 180px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.btn-save {
+    background: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+
+.section-rawatjalan {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+/* Judul */
+.section-rawatjalan h2 {
+    margin: 0;
+    padding: 12px;
+    background: #3b79a6;
+    color: white;
+    text-align: center;
+}
+
+/* Table */
+.section-rawatjalan table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.section-rawatjalan th,
+.section-rawatjalan td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.section-rawatjalan th {
+    border-top: none;
+}
+
+
+.section-rawatjalan tr:hover {
+    background: #f2f2f2;
+}
+
+
+
