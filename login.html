@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIMRS - POLTEKES KMC KUNINGAN</title>
+    <title>SIMRS - Login</title>
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
     <header class="header-menu">
         <div class="title">
-            <h4>SIMRS - POLTEKES KMC KUNINGAN</h4>
+            <h4>SIMRS</h4>
         </div>
         <div class="menu">
-            <a href="/login.html">Login</a>
-            <a class="active" href="/index.html">Home</a>
+            <a class="active" href="/login.html">Login</a>
+            <a href="/index.html">Home</a>
             <a href="/pengguna.html">Pengguna</a>
             <a href="pendaftaran.html">Pendaftaran</a>
             <a href="rawatjalan.html">Rawat Jalan</a>
@@ -22,16 +22,20 @@
             <button>Logout</button>
         </div>
     </header>
-    <section class="menu">
-        <div class="card-menu">
-            <h4>Pengguna</h4>
-        </div>
-        <div class="card-menu">
-            <h4>Pendaftaran</h4>
-        </div>
-        <div class="card-menu">
-            <h4>Rawat Jalan</h4>
-        </div>
-    </section>
+
+
+<form action="index.html" method="post" class="form-login">
+ 
+<h2 class="judul-login">Login SIMRS</h2>
+    <label>Username</label>
+    <input type="text" name="username" required>
+
+    <label>Password</label>
+    <input type="password" name="password" required>
+
+    <button type="submit">Login</button>
+
+</form>
+
 </body>
 </html>
